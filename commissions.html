@@ -45,21 +45,153 @@
 </nav>
 
 
+<div class="container">
+  <div role="tabpanel">
 
-commissions:
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#tarot" aria-controls="tarot" role="tab" data-toggle="tab">Tarot Readings</a></li>
+      <li role="presentation"><a href="#other" aria-controls="profile" role="tab" data-toggle="tab">Performances and Written Work</a></li>
+    </ul>
 
-my contact info and a form for people to directly commission specific things (poetry performance, tarot reading online/in person, publish my fiction)
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="tarot">
+        <h3>Commission a Tarot Reading</h3>
+        <p>Thank you for your interest in receiving a reading. If you are in the St. Louis area, you can request a reading in-person by clicking <a href="#" data-toggle="modal" data-target="#in-person-modal">here.</a> Otherwise, please fill out the form below for an online reading.</p>
+        <p><b>Your Information</b></p>
+          <input type="text" class="form-control" placeholder="Name"><br>
+          <input type="text" class="form-control" placeholder="Email"><br>
+        <p><b>Your Question</b> What do you want to know? The best questions for tarot readings are open-ended: for example, instead of asking "When will I get a promotion?" consider asking "What can I do to achieve my goal of getting a promotion?" It will also be helpful if you can tell me a little bit about yourself (age, gender, general life circumstances) and any other information that might be relevant to your question.<br></p>
+          <textarea class="form-control" rows="5" placeholder="Your question"></textarea><br>
+        <p><b>Type of Reading</b> Please select the level of detail you would like in your reading:</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Simple (1-3 card draw): <b>$5</b>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Intermediate (3-9 card spreads): <b>$10</b>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Complex (9+ card spreads): <b>$20</b>
+              </label>
+            </div>
+        <p><b>Payment</b></p>
+          <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Pay with <a href="#" alt="paypal"><img src="paypal.png"></a>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Pay with credit card
+              </label>
+            </div>
+            <p>Credit Card Information</p>
+                  <input type="text" class="form-control" placeholder="Cardholder name"><br>
+                  <input type="text" class="form-control" placeholder="Credit card number"><br>
+                  <form class="form-inline">
+                  <div class="form-group">
+                      <input type="text" class="form-control short" placeholder="MM">/
+                      <input type="text" class="form-control short" placeholder="YY">
+                      <input type="text" class="form-control medium" placeholder="Security code"><br>
+                    </div>
+                </form>
+                <br>
+              <p>Billing Address</p>
+                  <input type="text" class="form-control" placeholder="Street Address 1"><br>
+                  <input type="text" class="form-control" placeholder="Street Address 2"><br>
+                  <form class="form-inline">
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="City">
+                      <input type="text" class="form-control" placeholder="State">
+                      <input type="text" class="form-control short" placeholder="Zip">
+                    </div>
+                  </form>
+                  <br>
+        <button type="button" class="btn btn-primary btn-internal">Submit</button>
+        <br>
+        <br>
+      </div>
 
+      <div role="tabpanel" class="tab-pane" id="other">
+        <h3>Commission a Performance or Written Work</h3>
+        <p>
+          Thank you for your interest in my work. Please fill out the form below with your specific interest and I will get back to you within 24 hours. Performance and commission fees differ by service.
+        </p>
+        <p>Your Information</p>
+          <input type="text" class="form-control" placeholder="Name"><br>
+          <input type="text" class="form-control" placeholder="Email"><br>
+          
+        <p>You want to:</p>
+          <select class="form-control">
+            <option>Publish my fiction</option>
+            <option>Commission a new piece of fiction</option>
+            <option>Hire me for a spoken word performance</option>
+            <option>Commission a new spoken word piece</option>
+            <option>Contact me about something else (please describe in text field below)</option>
+          </select>
+        <br>
+        <p>Other information</p>
+          <textarea class="form-control" rows="3" placeholder="Other information or details about performance venue"></textarea>
 
+        <br><button type="button" class="btn btn-primary btn-internal">Submit</button>
+      </div>
 
+    </div>
 
+  </div>
+</div>
 
+<!-- In-person Modal -->
+  <div class="modal fade" id="in-person-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Request a reading in-person</h4>
+        </div>
+        <div class="modal-body">
+          <p><b>Your Information</b></p>
+            <input type="text" class="form-control" placeholder="Name"><br>
+            <input type="text" class="form-control" placeholder="Email"><br>
+          <p><b>Type of Reading</b> Please select the level of detail you would like in your reading:</p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Simple (1-3 card draw): <b>15-20 minutes, $10</b>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Intermediate (3-9 card spreads): <b>30-45minutes, $20</b>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Complex (9+ card spreads): <b>45-60 minutes, $30</b>
+                </label>
+              </div>
+            <p>Your payment, cash-only, will be exchanged in person. We will discuss the question you wish to investigate at that time as well. I will contact you within 24 hours of this request to set up a time and place to meet for the reading.</p>
+        </div>        
 
-
-
-
-
-
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-internal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
