@@ -1,0 +1,20 @@
+body {
+	background-color: #fff;
+}
+
+.navbar {
+	background-color: #DBDBDB !important;
+}
+
+.quote .thumbnail {
+	height: 170px;
+	width: 200px;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 7px;
+}
+
+.read-more {
+	text-align: center; !important;
+	font-weight: bold;
+}

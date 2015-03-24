@@ -1,0 +1,17 @@
+body {
+	background-color: #fff;
+}
+
+.navbar {
+	position: absolute;
+	top: 200px;
+	height: 75px;
+	font-size: 200%;
+	background-color: #DBDBDB !important;
+	padding-top: 10px;
+}
+
+.navbar-brand {
+	font-size: 150% !important;
+	padding-top: 10px;
+}
