@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
 
-    <!-- Bootstrap -->
     <link href="portfolio.css" rel="stylesheet">
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--page transitions-->
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,54 +20,45 @@
     <![endif]-->
 	</head>
 <body>
+<div class="container-fluid">
+  <div class="row">
+    <ul class="title">
+      <li><h2>
+        <a href="#about" data-toggle="collapse" aria-expanded="false" aria-controls="about" class="op">Hana Hartman</a></h2>
+        <div class="collapse" id="about">
+          <p>about me</p>
+        </div>
+      </li>
+      <li id="fiction"><h2>
+        <a href="fiction.html" class="op">Fiction</a></h2>
+      </li>
+      <li id="poetry"><h2>
+        <a href="poetry.html" class="op">Spoken Word</a>
+      </h2></li>
+      <li id="tarot"><h2>
+        <a href="tarot.html" class="op">Tarot</a>
+      </h2></li>
+      <li id="commissions"><h2>
+        <a href="commissions.html" class="op">Commissions</a>
+      </h2></li>
+    </ul>
+  </div>
 
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Hana Hartman</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="fiction.html">Fiction</a></li>
-        <li><a href="poetry.html">Spoken Word</a></li>
-        <li><a href="tarot.html">Tarot</a></li>
-        <li><a href="commissions.html">Commissions</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-
-<!--FICTION PANEL-->
-
-    <!--samples of fiction with links to full works-->
-
-<!--POETRY PANEL-->
-
-    <!--some kind of creative arrangement of poetry videos that you can mouse over and play-->
-
-<!--TAROT PANEL-->
-
-    <!--examples of readings i've made up, testimonials from customers-->
-
-<!--COMMISSIONS PANEL-->
-
-    <!--form to commission a piece, reading, or hire me to perform-->
+</div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>$(function () 
+      { $("[data-toggle='popover']").popover();
+      });
+   </script>
+<!--following script taken from http://stackoverflow.com/questions/22105291/how-to-create-hover-effects-for-all-links-except-the-one-you-hover-on-using-java -->
+   <script> $('a.op').hover(function(){
+ $('a.op').not(this).toggleClass('toggle');
+});</script>
+
 </body>
 </html>
