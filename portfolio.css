@@ -14,92 +14,19 @@ img.op:active {
 	border: solid 4px red;
 }
 
+.collapse {
+	text-align: center;
+}
+
 /*.toggle code taken from http://stackoverflow.com/questions/22105291/how-to-create-hover-effects-for-all-links-except-the-one-you-hover-on-using-java*/
 .toggle {
 	opacity: 0.5;
 }
 
-/*.circle-container code taken from http://stackoverflow.com/questions/12813573/position-icons-into-circle*/
-.circle-container {
-    position: relative;
-    width: 36em;
-    height: 36em;
-    padding: 3.4em;
-    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-    border: dashed 1px;
-    border-radius: 50%;
-    margin: 2.1em auto 0;
-    background-color: white;
-}
-.circle-container a {
-    display: block;
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 8em; height: 8em;
-    margin: -4em;
-}
-.circle-container img { display: block; width: 100%; }
-.deg270 { transform: rotate(270deg) translate(14em) rotate(-270deg); }
-.deg55 { transform: rotate(55deg) translate(14em) rotate(-55deg); }
-.deg125 { transform: rotate(125deg) translate(14em) rotate(-125deg); }
-.deg205 { transform: rotate(205deg) translate(14em) rotate(-205deg); }
-.deg335 { transform: rotate(335deg) translate(14em) rotate(-335deg); }
-
-
-
-
-
-
-
-/* attempt 1
-img.white {
-	position: absolute;
-	z-index: -1;
-	float: center;
-	min-height: 90%;
+ul.title {
+	text-decoration: none;
 }
 
-img.center {
-	vertical-align: inherit;
-	size: 200px;
+li.title {
+	float: left;
 }
-
-/*.circle-container code taken from http://stackoverflow.com/questions/12813573/position-icons-into-circle*
-.circle-container {
-    position: absolute;
-    height: 30em;
-    padding: 3.4em;
-    border-radius: 50%;
-    margin-top: 10%;
-}
-.circle-container div {
-    display: block;
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 6em; height: 6em;
-    margin: -3em;
-}
-/*.circle-container img { display: block; width: 100%; }*
-.deg270 { transform: rotate(270deg) translate(350%) rotate(-270deg); }
-.deg55 { transform: rotate(55deg) translate(350%) rotate(-55deg); }
-.deg125 { transform: rotate(125deg) translate(350%) rotate(-125deg); }
-.deg205 { transform: rotate(205deg) translate(350%) rotate(-205deg); }
-.deg335 { transform: rotate(335deg) translate(350%) rotate(-335deg); }
-*/
-
-
-/* old navbar css
-.navbar {
-	position: absolute;
-	top: 200px;
-	height: 75px;
-	font-size: 200%;
-	background-color: #DBDBDB !important;
-	padding-top: 10px;
-}
-
-.navbar-brand {
-	font-size: 150% !important;
-	padding-top: 10px;
-}
-*/
