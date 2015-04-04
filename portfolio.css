@@ -48,7 +48,7 @@ a.op:active {
     /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
     border: dashed 1px;
     border-radius: 50%;
-    margin-top: 7%;
+    margin-top: 3em;
     margin-right: 2.1em auto 0;
     margin-bottom: 2.1em auto 0;
     margin-left: 2.1em auto 0;
@@ -63,12 +63,12 @@ a.op:active {
 }
 /*.circle-container img { display: block; width: 100%; }*/
 /*.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
-.deg270 { transform: rotate(270deg) translate(12em) rotate(-270deg); }
-.deg55 { transform: rotate(55deg) translate(12em) rotate(-55deg); }
-.deg125 { transform: rotate(125deg) translate(12em) rotate(-125deg); }
+.deg270 { transform: rotate(270deg) translate(15em) rotate(-270deg); }
+.deg55 { transform: rotate(55deg) translate(15em) rotate(-55deg); }
+.deg125 { transform: rotate(125deg) translate(15em) rotate(-125deg); }
 /*.deg180 { transform: translate(-12em); }*/
-.deg205 { transform: rotate(205deg) translate(12em) rotate(-205deg); }
-.deg335 { transform: rotate(335deg) translate(12em) rotate(-335deg); }
+.deg205 { transform: rotate(205deg) translate(15em) rotate(-205deg); }
+.deg335 { transform: rotate(335deg) translate(15em) rotate(-335deg); }
 
 
 
