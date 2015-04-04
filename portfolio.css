@@ -1,34 +1,75 @@
 body {
-	background-color: #990033 !important;
+	background-image: url("galaxy1.png");
 }
 
 ul.title {
 	margin-top: 50px;
-	text-align: center;
+	/*text-align: center;*/
 	list-style: none;
 }
 
 a {
-	color: white !important;
-	transition-property: font-size;
-    transition-duration: 1s;
+	color: black !important;
+	transition: font-size 1s;
 }
 
-a:hover {
-	color: white !important;
+a.op:hover {
+	color: black !important;
 	font-size: 125%;
 	text-decoration: none !important;
 
 }
 
-a:active {
-	color: white !important;
+a.op:active {
+	color: black !important;
 }
 
+/*.toggle code taken from http://stackoverflow.com/questions/22105291/how-to-create-hover-effects-for-all-links-except-the-one-you-hover-on-using-java*/
 .toggle {
-	opacity: 0.7;
-	color: black;
+	opacity: 0.5;
 }
+
+.white {
+	position: relative;
+	background-color: white;
+	height: 40em;
+	width: 40em;
+	padding: 2.4em;
+	border-radius: 50%;
+	margin: 2em auto 0;
+}
+
+/*.circle-container code taken from http://stackoverflow.com/questions/12813573/position-icons-into-circle*/
+.circle-container {
+    position: relative;
+    width: 28em;
+    height: 28em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+    background-color: white;
+}
+.circle-container li {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 6em; height: 6em;
+    margin: -3em;
+}
+.circle-container img { display: block; width: 100%; }
+/*.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
+.deg270 { transform: rotate(270deg) translate(16em) rotate(-270deg); }
+.deg55 { transform: rotate(55deg) translate(16em) rotate(-55deg); }
+.deg125 { transform: rotate(125deg) translate(16em) rotate(-125deg); }
+/*.deg180 { transform: translate(-12em); }*/
+.deg205 { transform: rotate(205deg) translate(16em) rotate(-205deg); }
+.deg335 { transform: rotate(335deg) translate(16em) rotate(-335deg); }
+
+
+
+
 
 /* old navbar css
 .navbar {
