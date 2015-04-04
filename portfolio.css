@@ -32,8 +32,8 @@ a.op:active {
 .white {
 	position: relative;
 	background-color: white;
-	height: 40em;
-	width: 40em;
+	height: 42em;
+
 	padding: 2.4em;
 	border-radius: 50%;
 	margin: 2em auto 0;
@@ -42,13 +42,13 @@ a.op:active {
 /*.circle-container code taken from http://stackoverflow.com/questions/12813573/position-icons-into-circle*/
 .circle-container {
     position: relative;
-    width: 28em;
-    height: 28em;
-    padding: 2.8em;
+
+    height: 30em;
+    padding: 3.4em;
     /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
     border: dashed 1px;
     border-radius: 50%;
-    margin: 1.75em auto 0;
+    margin: 2.1em auto 0;
     background-color: white;
 }
 .circle-container li {
@@ -60,12 +60,12 @@ a.op:active {
 }
 .circle-container img { display: block; width: 100%; }
 /*.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
-.deg270 { transform: rotate(270deg) translate(16em) rotate(-270deg); }
-.deg55 { transform: rotate(55deg) translate(16em) rotate(-55deg); }
-.deg125 { transform: rotate(125deg) translate(16em) rotate(-125deg); }
+.deg270 { transform: rotate(270deg) translate(12em) rotate(-270deg); }
+.deg55 { transform: rotate(55deg) translate(12em) rotate(-55deg); }
+.deg125 { transform: rotate(125deg) translate(12em) rotate(-125deg); }
 /*.deg180 { transform: translate(-12em); }*/
-.deg205 { transform: rotate(205deg) translate(16em) rotate(-205deg); }
-.deg335 { transform: rotate(335deg) translate(16em) rotate(-335deg); }
+.deg205 { transform: rotate(205deg) translate(12em) rotate(-205deg); }
+.deg335 { transform: rotate(335deg) translate(12em) rotate(-335deg); }
 
 
 
