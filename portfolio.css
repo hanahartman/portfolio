@@ -2,12 +2,6 @@ body {
 	background-image: url("galaxy1.png");
 }
 
-/*ul.title {
-	margin-top: 50px;
-	/*text-align: center;*
-	list-style: none;
-}*/
-
 a {
 	color: black !important;
 	transition: font-size 1s;
@@ -29,30 +23,30 @@ a.op:active {
 	opacity: 0.5;
 }
 
-.white {
-	position: relative;
-	background-color: white;
-	height: 42em;
+img.white {
+	position: absolute;
+	max-height: ;
+/*	padding: 2.4em;*/
+/*	border-radius: 50%;*/
+	z-index: -1;
+/*	margin: 2em auto 0;*/
+	float: center;
+	min-height: 90%;
+}
 
-	padding: 2.4em;
-	border-radius: 50%;
-	margin: 2em auto 0;
+img.center {
+	vertical-align: inherit;
+	size: 200px;
 }
 
 /*.circle-container code taken from http://stackoverflow.com/questions/12813573/position-icons-into-circle*/
 .circle-container {
-    position: relative;
-
+    position: absolute;
     height: 30em;
     padding: 3.4em;
     /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-    border: dashed 1px;
     border-radius: 50%;
-    margin-top: 3em;
-    margin-right: 2.1em auto 0;
-    margin-bottom: 2.1em auto 0;
-    margin-left: 2.1em auto 0;
-    background-color: white;
+    margin-top: 10%;
 }
 .circle-container div {
     display: block;
@@ -62,13 +56,11 @@ a.op:active {
     margin: -3em;
 }
 /*.circle-container img { display: block; width: 100%; }*/
-/*.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
-.deg270 { transform: rotate(270deg) translate(15em) rotate(-270deg); }
-.deg55 { transform: rotate(55deg) translate(15em) rotate(-55deg); }
-.deg125 { transform: rotate(125deg) translate(15em) rotate(-125deg); }
-/*.deg180 { transform: translate(-12em); }*/
-.deg205 { transform: rotate(205deg) translate(15em) rotate(-205deg); }
-.deg335 { transform: rotate(335deg) translate(15em) rotate(-335deg); }
+.deg270 { transform: rotate(270deg) translate(350%) rotate(-270deg); }
+.deg55 { transform: rotate(55deg) translate(350%) rotate(-55deg); }
+.deg125 { transform: rotate(125deg) translate(350%) rotate(-125deg); }
+.deg205 { transform: rotate(205deg) translate(350%) rotate(-205deg); }
+.deg335 { transform: rotate(335deg) translate(350%) rotate(-335deg); }
 
 
 
