@@ -1,5 +1,6 @@
 body {
-	background-color: #fff;
+	background-image: url("galaxy1.png");
+	background-attachment: fixed;
 }
 
 .navbar {
@@ -28,4 +29,8 @@ p.tarot {
 	font-size: 125%;
 	text-align: center;
 	font-weight: bold;
+}
+
+.content-block {
+	background-color: white;
 }
