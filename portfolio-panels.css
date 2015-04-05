@@ -1,3 +1,5 @@
+/*all*/
+
 body {
 	background-image: url("galaxy1.png");
 	background-attachment: fixed;
@@ -7,12 +9,68 @@ body {
 	background-color: #DBDBDB !important;
 }
 
-.quote .thumbnail {
-	height: 170px;
-	width: 200px;
-	background-color: #fff;
-	text-align: center;
+.content-block {
+	background-color: white;
+}
+
+/*fiction*/
+.fic-quote .thumbnail {
+	background-color: #eeeeee;
 	margin-top: 7px;
+	border-radius: 50%;
+	height: 210px;
+	width: 210px;
+	text-align: center;
+	border: solid 4px black;
+}
+
+.fic-quote .thumbnail:visited {
+	border: solid 4px #00ff00 !important;
+}
+
+.fic-quote .thumbnail:hover {
+	border: solid 4px #00ff00;
+}
+
+.fic-quote .thumbnail:active {
+	border: solid 4px #00ff00;
+}
+
+.fic-quote p {
+	font-family: 'Special Elite', serif;
+}
+
+p.normal-padding {
+	padding-top: 3px;
+}
+
+p.extra-padding {
+	padding-top: 8px;
+}
+
+.fic-quote a:link{
+	text-decoration: none;
+	color: black;
+}
+
+.fic-quote a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.fic-quote a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.fic-quote a:active {
+	text-decoration: none;
+	color: black;
+}
+
+/*.toggle code taken from http://stackoverflow.com/questions/22105291/how-to-create-hover-effects-for-all-links-except-the-one-you-hover-on-using-java*/
+.toggle {
+	opacity: 0.5;
 }
 
 .read-more {
@@ -20,6 +78,10 @@ body {
 	font-weight: bold;
 }
 
+/*poetry*/
+
+
+/*tarot*/
 .black {
 	color:  black !important;
 }
@@ -31,6 +93,8 @@ p.tarot {
 	font-weight: bold;
 }
 
-.content-block {
-	background-color: white;
+.thumbnail .tarot-th {
+	max-height: 200px;
 }
+
+/*commissions*/

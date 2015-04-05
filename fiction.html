@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  	<!--google fonts-->
+  	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,50 +52,89 @@
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-			<div class="quote col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="fic-quote col-xs-12 col-sm-6 col-md-3 col-lg-3">
     			<a href="#" data-toggle="modal" data-target="#ficmodal1" class="thumbnail">
     			<br>
     			<br>
     			<br>
+    			<p class="normal-padding">
     			A tattoo artist named Candace is also a book of the same name.
+    			</p>
        			</a>
   			</div>
-			<div class="quote col-xs-12 col-sm-6 col-md-offset-3 col-md-3 col-lg-3">
+			<div class="fic-quote col-xs-12 col-sm-6 col-md-offset-3 col-md-3 col-lg-3">
     			<a href="#" data-toggle="modal" data-target="#ficmodal2" class="thumbnail">
     			<br>
-    			He and his father were the same height now, both straight and ordinary, bodies like mannequins with their hands in the pockets of identical suits.
+    			<p class="normal-padding">
+    			He and his<br>
+    			father were the same height now, both straight and ordinary, bodies like mannequins with their hands in the pockets of identical suits.
+       			</p>
        			</a>
        		</div>
-			<div class="quote col-xs-12 col-sm-6 col-md-offset-3 col-md-3 col-lg-3">
+			<div class="fic-quote col-xs-12 col-sm-6 col-md-offset-3 col-md-3 col-lg-3">
     			<a href="#" data-toggle="modal" data-target="#ficmodal3" class="thumbnail">
-    			There was still something about the house’s creaky wooden floor-boards that reminded her of being sixteen and miserable. Sometimes her father left a note: Wake me if you’re injured.
+    			<p>
+    			There<br>
+    			was still something<br>
+    			about the house that<br>
+    			reminded her of being 16<br>
+    			and miserable, sneaking<br>
+    			back from someplace<br>
+    			dangerous. Sometimes her<br>
+    			father left a note: Wake<br>
+    			me if you’re<br>
+    			injured.
+    			</p>
        			</a>
        		</div>
-			<div class="quote col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="fic-quote col-xs-12 col-sm-6 col-md-3 col-lg-3">
     			<a href="#" data-toggle="modal" data-target="#ficmodal4" class="thumbnail">
     			<br>
     			<br>
     			<br>
-    			Licorice got her name from the first death she ever witnessed.    			
+    			<p class="normal-padding">
+    			Licorice got her name from the first death she ever witnessed.
+    			</p>    			
        			</a>
        		</div>
-			<div class="quote col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="fic-quote col-xs-12 col-sm-6 col-md-3 col-lg-3">
     			<a href="#" data-toggle="modal" data-target="#ficmodal5" class="thumbnail">
-    			The last thing my mother said to me before I took off on my own was spoken through a scratched car window over the blast of the air conditioning:“Don’t forget to separate your whites and colors!”
+    			<p class="extra-padding">
+    			The last thing<br>
+    			my mother said to me<br>
+    			before I took off on my<br>
+    			own was spoken through a<br>
+    			scratched car window over<br>
+    			the blast of the A/C: “Don’t<br>
+    			forget to separate your<br>
+    			whites and<br>
+    			colors!”
+    			</p>
        			</a>
        		</div>
-			<div class="quote col-xs-12 col-sm-6 col-md-3 col-lg-3">
+			<div class="fic-quote col-xs-12 col-sm-6 col-md-3 col-lg-3">
     			<a href="#" data-toggle="modal" data-target="#ficmodal6" class="thumbnail">
-    			<br>
-    			She had come to love him in a strange way—the love of tasteless Eggo waffles, the love of bus drivers, the love of all the things you rely on to make your life the way it is.
+    			<p class="extra-padding">
+    			She had come<br>
+    			to love him in a<br>
+    			strange way—the love<br>
+    			of tasteless Eggo waffles,<br>
+    			the love of bus drivers,<br>
+    			the love of all the things<br>
+    			you rely on to make your<br>
+    			life the way<br>
+    			it is.
+    			</p>
        			</a>
        		</div>
-       		<div class="quote col-xs-12 col-sm-6 col-md-offset-6 col-md-3 col-lg-3">
+       		<div class="fic-quote col-xs-12 col-sm-6 col-md-offset-6 col-md-3 col-lg-3">
     			<a href="#" data-toggle="modal" data-target="#ficmodal7" class="thumbnail">
     			<br>
     			<br>
     			<br>
+    			<p class="normal-padding">
     			Deep at the bottom of the sea there is an immortal crab.
+    			</p>
        			</a>
        		</div>
 
@@ -357,5 +399,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+<!--following script taken from http://stackoverflow.com/questions/22105291/how-to-create-hover-effects-for-all-links-except-the-one-you-hover-on-using-java -->
+   <script> $('.thumbnail').hover(function(){
+ $('.thumbnail').not(this).toggleClass('toggle');
+});</script>
+
 </body>
 </html>
