@@ -24,9 +24,13 @@ img.op:active {
 }
 
 ul.title {
-	text-decoration: none;
+	list-style-type: none;
 }
 
 li.title {
 	float: left;
+}
+
+.home {
+	margin-top: 18%;
 }
