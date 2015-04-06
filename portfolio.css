@@ -34,3 +34,7 @@ ul.title {
 li.title {
 	float: left;
 }
+
+.about {
+	font-family: 'Slabo 27px', serif;
+}
