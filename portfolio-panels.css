@@ -6,7 +6,33 @@ body {
 }
 
 .navbar {
-	background-color: #DBDBDB !important;
+	background-color: white;
+	border-radius: 0% !important;
+	/*border-bottom: solid 2px black !important;*/
+}
+
+.navbar-brand {
+	font-family: 'special elite', serif !important;
+	color: black !important;
+	font-size: 200% !important;
+}
+.navbar-brand:hover {
+	background-color: #d6d6d6 !important;
+}
+.navbar-brand:active {
+	background-color: #d6d6d6 !important;
+}
+
+.navbar-nav a{
+	font-family: 'special elite', serif !important;
+	color: black !important;
+	font-size: 125%;
+}
+.navbar-nav a:hover{
+	background-color: #d6d6d6 !important;
+}
+.navbar-nav a:active{
+	background-color: #d6d6d6!important;
 }
 
 .content-block {
@@ -78,23 +104,116 @@ p.extra-padding {
 	font-weight: bold;
 }
 
-/*poetry*/
-
-
-/*tarot*/
-.black {
-	color:  black !important;
+p.break {
+	text-align: center !important;
 }
 
-p.tarot {
-	padding-top: 10px;
-	font-size: 125%;
+/*poetry*/
+h3.poetry {
+	font-family: 'Trocchi', serif;
+	font-size: 400% !important;
+	color: white;
 	text-align: center;
+}
+
+h4.poetry {
+	font-family: 'Trocchi', serif;
+	font-size: 175% !important;
+	text-align: right !important;
+	color: white;
+	padding-right: 10px;
+	font-style: italic;
+}
+
+.ml-quote {
+	margin-bottom: 25px;
+}
+
+/*tarot*/
+
+.intro {
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+}
+
+h3.lead {
+	font-family: 'Trocchi', serif;
+	font-size: 175%;
+	margin-bottom: 5px;
+}
+
+h4.etc{
+	font-family: 'Slabo 27px', sans-serif;
+	font-size: 150%;
+}
+
+.back-block {
+	background-color: rgba(0,0,0,.5);
+	width: 90%;
+	margin-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.thumbnail.tar-th {
+	max-height: 335px;
+	max-width: 300px;
+	border: solid 1px black;
+}
+.thumbnail.tar-th:visited {
+	border: solid 1px black !important;
+}
+
+.thumbnail.tar-th:hover {
+	border: solid 1px #00ff00 !important;
+}
+.thumbnail.tar-th:active {
+	border: solid 1px #00ff00 !important;
+}
+
+.caption {
+	text-align: center;
+	height: 35px !important;
+}
+
+a.tar-th {
+	text-decoration: none !important;
+	font-family: 'Cookie', cursive;
+	font-size: 130%;
+}
+a.tar-th:visited {
+	text-decoration: none !important;
+}
+a.tar-th:hover {
+	text-decoration: none !important;
+	font-weight: bold;
+}
+a.tar-th:active {
+	text-decoration: none !important;
 	font-weight: bold;
 }
 
-.thumbnail .tarot-th {
-	max-height: 200px;
+.tar-quote .thumbnail {
+	border-radius: 50% !important;
+	height: 210px;
+	width: 210px;
+	text-align: center;
+	border: solid 4px black;
+	font-family: 'Special Elite', serif;
+	margin-top: 30px;
+}
+
+.tar-quote .thumbnail:visited {
+	border: solid 4px #00ff00 !important;
+}
+
+.tar-quote .thumbnail:hover {
+	border: solid 4px #00ff00;
+}
+
+.tar-quote .thumbnail:active {
+	border: solid 4px #00ff00;
 }
 
 /*commissions*/
