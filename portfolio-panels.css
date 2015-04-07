@@ -8,7 +8,7 @@ body {
 .navbar {
 	background-color: white;
 	border-radius: 0% !important;
-	/*border-bottom: solid 2px black !important;*/
+	margin-bottom: 0px !important;
 }
 
 .navbar-brand {
@@ -37,6 +37,48 @@ body {
 
 .content-block {
 	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.back-block {
+	background-color: rgba(0,0,0,.5);
+	width: 90%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.modal-body, .read-more, .well {
+	font-family: 'Roboto', sans-serif;
+}
+
+.modal-title {
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+}
+
+button {
+	background-color: white !important;
+	font-family: 'Roboto', sans-serif !important;
+	color: black !important;
+	border: solid 2px black !important;
+}
+
+button:visited {
+	color: black !important;
+	border: solid 2px black !important;
+}
+
+button:hover {
+	color: #00ff00 !important;
+	border: solid 2px #00ff00 !important;
+}
+
+button:active {
+	color: #00ff00 !important;
+	border: solid 2px #00ff00 !important;
 }
 
 /*fiction*/
@@ -47,15 +89,15 @@ body {
 	height: 210px;
 	width: 210px;
 	text-align: center;
-	border: solid 4px black;
+	border: solid 4px black !important;
 }
 
 .fic-quote .thumbnail:visited {
-	border: solid 4px #00ff00 !important;
+	border: solid 4px black !important;
 }
 
 .fic-quote .thumbnail:hover {
-	border: solid 4px #00ff00;
+	border: solid 4px #00ff00 !important;
 }
 
 .fic-quote .thumbnail:active {
@@ -100,12 +142,20 @@ p.extra-padding {
 }
 
 .read-more {
-	text-align: center; !important;
+	text-align: center !important;
 	font-weight: bold;
 }
 
 p.break {
 	text-align: center !important;
+}
+
+.read-more a{
+	color: #00ff00 !important;
+}
+
+.collapse h3 {
+	font-family: 'Slabo 27px', serif;
 }
 
 /*poetry*/
@@ -129,6 +179,31 @@ h4.poetry {
 	margin-bottom: 25px;
 }
 
+.poet-statement.thumbnail {
+	border-radius: 50% !important;
+	height: 250px;
+	width: 250px;
+	text-align: center;
+	border: solid 4px black;
+	font-family: 'Special Elite', serif;
+	float: center;
+}
+
+.poet-statement.thumbnail:hover {
+	border: solid 4px #00ff00;
+}
+
+.poet-statement.thumbnail:active {
+	border: solid 4px #00ff00;
+}
+.poet-statement p {
+	padding: 5px;
+}
+
+.poemz.thumbnail {
+	border: solid 2px #00ff00 !important;
+}
+
 /*tarot*/
 
 .intro {
@@ -146,14 +221,6 @@ h3.lead {
 h4.etc{
 	font-family: 'Slabo 27px', sans-serif;
 	font-size: 150%;
-}
-
-.back-block {
-	background-color: rgba(0,0,0,.5);
-	width: 90%;
-	margin-bottom: 15px;
-	padding-left: 5px;
-	padding-right: 5px;
 }
 
 .thumbnail.tar-th {
@@ -205,7 +272,7 @@ a.tar-th:active {
 }
 
 .tar-quote .thumbnail:visited {
-	border: solid 4px #00ff00 !important;
+	border: solid 4px black !important;
 }
 
 .tar-quote .thumbnail:hover {
@@ -216,4 +283,76 @@ a.tar-th:active {
 	border: solid 4px #00ff00;
 }
 
+p.learn-tarot {
+	padding-left: 10px;
+}
+
+p.learn-tarot a {
+	color: #00ff00;
+}
+
 /*commissions*/
+
+.tab-content {
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+.tab-content h3 {
+	font-family: 'Slabo 27px', serif !important;
+}
+
+.tab-content p {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.tab-content a {
+	color: #00ff00 !important;
+}
+
+.tab-content a:hover {
+	color: #00ff00 !important;
+}
+
+.tab-content a:active {
+	color: #00ff00 !important;
+}
+
+input {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+select {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+label {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+#other {
+	padding-bottom: 30px;
+}
+
+.nav-tabs a {
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	font-size: 150% !important;
+	color: black !important;
+	text-decoration: underline !important
+}
+
+.nav-tabs a:visited {
+	color: #00ff00 !important;
+}
+
+.nav-tabs a:hover {
+	color: #00ff00 !important;
+	text-decoration: underline !important;
+}
+
+.nav-tabs a:active {
+	color: #00ff00 !important;
+	text-decoration: underline !important;
+}
+
