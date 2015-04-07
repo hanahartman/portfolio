@@ -1,0 +1,122 @@
+body {
+	background-image: url("galaxy1.png");
+}
+
+.container {
+	width: 100%;
+}
+
+img.op {
+	border: solid 4px black;
+}
+
+img.op:hover {
+	border: solid 4px #00ff00;
+}
+
+img.op:active {
+	border: solid 4px #00ff00;
+}
+
+.collapse {
+	position: relative;
+	text-align: center;
+	margin-top: -125px;
+	color: black;
+	z-index: 1;
+}
+
+/*.toggle code taken from http://stackoverflow.com/questions/22105291/how-to-create-hover-effects-for-all-links-except-the-one-you-hover-on-using-java*/
+.toggle {
+	opacity: 0.5;
+}
+
+ul.title {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+.about {
+	font-family: 'Roboto', serif;
+}
+
+
+/*small home icons*/
+.home-icon .thumbnail {
+	border-radius: 50% !important;
+	height: 160px;
+	width: 160px;
+	border: solid 5px black;
+	color: black;
+	text-decoration: none !important;
+}
+
+.home-icon .thumbnail:visited {
+	border: solid 5px black;
+	opacity: 1;
+}
+
+.home-icon .thumbnail:hover {
+	border: solid 5px #00ff00;
+}
+
+.home-icon .thumbnail:active {
+	border: solid 5px #00ff00;
+}
+.home-icon h3 {
+	font-family: 'Special Elite', serif;
+	text-align: center;
+	font-size: 150%;
+}
+/*main center icon*/
+.home-icon-main.thumbnail {
+	border-radius: 50% !important;
+	height: 300px;
+	width: 300px;
+	border: solid 5px black;
+}
+
+.home-icon-main.thumbnail:visited {
+	border: solid 5px #00ff00;
+}
+
+.home-icon-main.thumbnail:hover {
+	border: solid 5px #00ff00;
+}
+
+.home-icon-main.thumbnail:active {
+	border: solid 5px #00ff00;
+}
+.home-icon-main p,h1 {
+	font-family: 'Special Elite', serif !important;
+	color: black !important;
+	text-decoration: none !important;
+	text-align: center;
+	font-weight: bold;
+}
+
+h1 {
+	margin-top: 0px !important;
+}
+
+a.main-link {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+a.main-link:visited {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+a.main-link:hover {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+a.main-link:active {
+	color: black !important;
+	text-decoration: none !important;
+}
+

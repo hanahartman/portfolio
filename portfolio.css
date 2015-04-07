@@ -36,5 +36,12 @@ li.title {
 }
 
 .about {
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 10% !important;
+	padding-right: 10% !important;
+}
+
+img {
+	min-height: 100px !important;
+	min-width: 100px !important;
 }
